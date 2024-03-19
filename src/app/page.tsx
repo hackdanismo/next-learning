@@ -10,14 +10,15 @@ export const metadata: Metadata = {
   description: "This is the Home page for the Next App."
 }
 
+// This is the homepage content
 const Home = () => {
   return (
-    <main>
+    <>
       <Heading level={1}>Test</Heading>
       <p className="font-bold">TailwindCSS is working!</p>
       <Button>Button Test</Button>
       <AppLink to="https://www.frontify.com/en/" openAsTab>Frontify</AppLink>
-    </main>
+    </>
   )
 }
 
