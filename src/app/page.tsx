@@ -1,6 +1,6 @@
 import Heading from "@/components/heading"
 import Button from "@/components/button"
-import Link from "@/components/link"
+import AppLink from "@/components/link"
 
 const Home = () => {
   return (
@@ -8,7 +8,7 @@ const Home = () => {
       <Heading level={1}>Test</Heading>
       <p className="font-bold">TailwindCSS is working!</p>
       <Button>Button Test</Button>
-      <Link to="https://www.frontify.com/en/" openAsTab>Frontify</Link>
+      <AppLink to="https://www.frontify.com/en/" openAsTab>Frontify</AppLink>
     </main>
   )
 }
