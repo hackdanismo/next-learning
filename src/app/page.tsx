@@ -6,6 +6,7 @@ const Home = () => {
   return (
     <main>
       <Heading level={1}>Test</Heading>
+      <p className="font-bold">TailwindCSS is working!</p>
       <Button>Button Test</Button>
       <Link to="https://www.frontify.com/en/" openAsTab>Frontify</Link>
     </main>
